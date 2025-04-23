@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-public class Leo extends Actor
+public class Daniel extends Actor
 {
     boolean atTop = true;
     public void act()
@@ -10,11 +10,11 @@ public class Leo extends Actor
         }
         if(atTop)
         {
-            setLocation(250,250);
+            setLocation(100,250);
         }
         else
         {
-            setLocation(300,100);
+            setLocation(100,100);
         }
     }
 }
