@@ -10,7 +10,7 @@ public class Daniel extends Actor
         }
         if(atTop)
         {
-            setLocation(100,250);
+            setLocation(100,300);
         }
         else
         {

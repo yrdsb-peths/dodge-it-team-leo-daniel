@@ -6,5 +6,8 @@ public class MyWorld extends World {
         
         Daniel D1 = new Daniel();
         addObject(D1, 100, 250);
+        
+        Car C1 = new Car();
+        addObject(C1, 500, 250);
     }
 }
