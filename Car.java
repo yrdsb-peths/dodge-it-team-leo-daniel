@@ -20,6 +20,8 @@ public class Car extends Actor
         }
         if (isTouching(Daniel.class))
         {
+            Skeleton S1=new Skeleton();
+            getWorld().addObject(S1, 300,200);
             getWorld().removeObject(this);
         }
     }
