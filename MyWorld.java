@@ -3,7 +3,7 @@ import greenfoot.*;
 public class MyWorld extends World {
     public MyWorld() {
         super(600, 400, 1);
-        
+        setBackground("images/wet-blue.jpg");
         Daniel D1 = new Daniel();
         addObject(D1, 100, 300);
         
