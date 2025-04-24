@@ -4,6 +4,7 @@ public class Daniel extends Actor
     boolean atTop = true;
     public void act()
     {
+        setImage("images/pig.png");
         if(Greenfoot.mouseClicked(null))
         {
             atTop = !atTop;

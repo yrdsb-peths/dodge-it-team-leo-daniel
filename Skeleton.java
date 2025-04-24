@@ -14,6 +14,7 @@ public class Skeleton extends Actor
      */
     public void act()
     {
+        setImage("images/skull.png");
         // Add your action code here.
     }
 }

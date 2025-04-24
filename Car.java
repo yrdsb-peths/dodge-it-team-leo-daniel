@@ -13,6 +13,7 @@ public class Car extends Actor
     public void act()
     {
         // Add your action code here.
+        setImage("images/bus-4.png");
         move(-15);
         if (getX()<=0)
         {
