@@ -8,15 +8,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Car extends Actor
 {
 
-
+    int number = Greenfoot.getRandomNumber(10)+1;
     
     public void act()
     {
         // Add your action code here.
         setImage("images/bus-4.png");
-        move(-15);
+        move(number*-1);
         if (getX()<=0)
         {
+            number=(Greenfoot.getRandomNumber(10)+1);
             resetBus();
         }
         if (isTouching(Daniel.class))
